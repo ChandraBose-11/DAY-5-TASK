@@ -60,13 +60,9 @@ for (var key in resumeData.location) {
 }
 
 console.log("\nUsing for...of loop:");
-for (var value of Object.values(resumeData)) {
+for (var value of Object.values(resumeData.profile)) {
   console.log(value);
 }
-console.log("\nUsing forEach loop for profile:");
-resumeData.profile.forEach((profile) => {
-  console.log(profile);
-});
 
 console.log("\nUsing forEach loop for education:");
 resumeData.education.forEach((education) => {
