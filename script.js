@@ -1,43 +1,43 @@
 let resumeData = {
-  basics: {
-    name: "CHANDRA BOSE.A",
-    email: "chandrubose46@gmail.com",
-    phone: 9952978290,
-    degree: "B.TECH",
+  "basics": {
+    "name": "CHANDRA BOSE.A",
+    "email": "chandrubose46@gmail.com",
+    "phone": "9952978290",
+    "degree": "B.TECH PETROLEUM ENGINEERING",
   },
-  location: {
-    address:
+  "location": {
+    "address":
       "MIG-428,THNB,KAMARAJAR ROAD,FORD COMPANY BACKSIDE,MARAI MALAI NAGER",
-    postalCode: 603204,
-    city: "Chennai",
-    state: "Tamilnadu",
-    country: "India",
+    "postalCode": "603204",
+    "city": "Chennai",
+    "state": "Tamilnadu",
+    "country": "India",
   },
-  profile: [
+  "profile": [
     {
-      github: "https://github.com/ChandraBose-11",
-      Netlify: "https://app.netlify.com/teams/chandrabose-11/overview",
+      "github": "https://github.com/ChandraBose-11",
+      "Netlify": "https://app.netlify.com/teams/chandrabose-11/overview",
     },
   ],
-  education: [
+  "education": [
     {
-      institution: "Vels Institute of Science, Technology & Advanced Studies",
-      department: "Petroleum",
-      studyType: "fulltime",
-      "batch start year": 2019,
-      "batch end year": 2023,
-      gpa: 8.5,
+      "institution": "Vels Institute of Science, Technology & Advanced Studies",
+      "department": "Petroleum",
+      "studyType": "fulltime",
+      "batch start year": "2019",
+      "batch end year": "2023",
+      "gpa": "8.5",
     },
   ],
-  skills: [
+  "skills": [
     {
-      name: "html,css,javascript",
-      level: "beginer",
+      "name": "html,css,javascript",
+      "level": "beginer",
     },
   ],
-  languages: [
+  "languages": [
     {
-      language: "Tamil,Enlish",
+      "language": "Tamil,Enlish",
     },
   ],
 };
