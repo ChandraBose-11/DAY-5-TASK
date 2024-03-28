@@ -1,4 +1,4 @@
-let resumeData = {
+var resumeData = {
   "basics": {
     "name": "CHANDRA BOSE.A",
     "email": "chandrubose46@gmail.com",
@@ -43,21 +43,24 @@ let resumeData = {
 };
 console.log(resumeData);
 
+ // --------------------->END <------------------------
+
 //   2.For the above JSON iterate over all for loops (for, for in, for of, for Each)
+
 console.log("Using for loop:");
-for (let key in resumeData.basics) {
+for (var key in resumeData.basics) {
   console.log(`${key}: ${resumeData.basics[key]}`);
 }
 
 console.log("\nUsing for...in loop:");
-for (let key in resumeData.location) {
+for (var key in resumeData.location) {
   if (resumeData.location.hasOwnProperty(key)) {
     console.log(`${key}: ${resumeData.location[key]}`);
   }
 }
 
 console.log("\nUsing for...of loop:");
-for (let value of Object.values(resumeData)) {
+for (var value of Object.values(resumeData)) {
   console.log(value);
 }
 console.log("\nUsing forEach loop for profile:");
